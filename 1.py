@@ -4,9 +4,14 @@
 #3.改成函式
 #4.一次產生5組
 import random
-lotto = []
-for i in range(6):
-    lotto.append(random.randint(1, 49))
-lotto.sort()
-lotto.append(random.randint(1, 49))
-print(lotto)
+
+def get_lotto(count):
+    for i in range(count):
+        lotto = []
+        for i in range(count):
+            lotto.append(random.randint(1, 49))
+        lotto.sort()
+        lotto.append(random.randint(1, 49))
+        print(lotto)
+
+get_lotto(5)
