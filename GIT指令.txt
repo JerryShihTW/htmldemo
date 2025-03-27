@@ -83,6 +83,10 @@ git reset --hard 00fc9e
 git remote -v
 origin  https://github.com/JerryShihTW/htmldemo.git (fetch)
 
+22.推送到雲端倉庫
+git push -u origin master
+git push
+
 ###常用指令
 git init
 
