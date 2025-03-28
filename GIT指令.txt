@@ -77,7 +77,7 @@ git reset 00fc9e
 git reset --hard 00fc9e
 
 20.加上雲端倉庫
-
+git remote add origin https://github.com/JerryShihTW/htmldemo.git
 
 21.檢視雲端倉庫url
 git remote -v
@@ -87,8 +87,11 @@ origin  https://github.com/JerryShihTW/htmldemo.git (fetch)
 git push -u origin master
 git push
 
+23.複製專案
+git clone https://github.com/JerryShihTW/htmldemo
+
 ###常用指令
-git init
+git init 
 
 git add .
 
