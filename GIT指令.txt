@@ -90,6 +90,12 @@ git push
 23.複製專案
 git clone https://github.com/JerryShihTW/htmldemo
 
+24.加入暫存區的恢復 A->U
+git restore --staged <filename>
+
+25將雲端版本同步本地端
+git pull
+
 ###常用指令
 git init 
 
